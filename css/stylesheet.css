@@ -10,3 +10,7 @@ body{
     font-size: 42px;
     color: teal;
   }
+
+span{
+  font-size: 10px;
+}
