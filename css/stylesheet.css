@@ -14,3 +14,16 @@ body{
 span{
   font-size: 10px;
 }
+
+li{
+  font-size: 30px;
+  font-style: italic;
+  color: indigo;
+}
+
+.special{
+  font-size: 38px;
+  font-weight: bold;
+  font-style: italic;
+  color: darkorchid
+}
