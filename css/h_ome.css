@@ -27,47 +27,61 @@ li{
 body{
   min-width: 550px;
   margin: 0;
-  background-color: lightsteelblue;
+  background-size: auto;
+  background: rgb(245,245,245);
+  background: linear-gradient(180deg, rgba(245,245,245,1) 0%,
+  rgba(246,241,241,1) 42%, rgba(240,128,128,1) 72%, rgba(218,62,62,1) 92%);
 }
 
 header{
+  background-color: snow;
   text-align: center;
-  background-color: white;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-bottom: 30px;
+  height: 80px;
 }
 
-.ear{
-  width: 70px;
-  height: 110px;
+#container{
+  height: 32px;
   background-color: chocolate;
+  position: relative;
+}
+#ear {
+  width: 70px;
+  height: 100px;
+  background-color: lightcoral;
+  position: relative; top: 9px;
 }
 
 .left{
   float:left;
-  margin-left: 30px;
-  position: static;
+  left: 30px;
+  position: absolute;
+
 }
 
 .right{
   float:right;
-  margin-right: 30px;
-  position: static;
+  right: 30px;
+  position: absolute;
 }
+
+
 
 header a{
   text-align: center;
   font-family: cursive;
-  font-size: 50px;
+  font-size: 48px;
   font-weight: bolder;
   color: crimson;
   background-color: lavender;
   text-decoration: none;
-  padding: 10px;
+  position: relative; top: 20px;
+  padding: 7px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-top: auto;
 }
+
 
 main {
   text-align: center;
@@ -77,4 +91,12 @@ main {
   padding-top: 100px;
   display: block; margin-left: auto;
   margin-right: auto; width: 200px;
+}
+
+
+.main{
+  margin-left: auto;
+  margin-right: auto; width: 500px;
+  height: 1000px;
+  color: dimgray;
 }
