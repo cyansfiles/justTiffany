@@ -1,3 +1,11 @@
+h1{
+  color:Lavender;
+}
+
+p{
+  color: whitesmoke;
+}
+
 h2{
     font-size: 42px;
     color: teal;
@@ -12,6 +20,10 @@ li{
   font-style: italic;
   color: indigo;
 }
+
+.outlined{
+    text-shadow: 0 0 12px 2F2C2C, 0 0 12px 2F2C2C, 0 0 12px 2F2C2C, 0 0 12px 2F2C2C;
+  }
 
 .special{
   font-size: 38px;
@@ -131,7 +143,8 @@ main {
         #home {
           margin-left: auto; margin-right: auto;
           height: 1000px;
-          background-color: #2F2C2C;
+          background: #2F2C2C;
+          background: linear-gradient(180deg, #2F2C2C 0%, #2F2C2C 79%, rgba(218,62,62,1) 94%);
           padding-top: 80px;
 
         }
@@ -148,9 +161,10 @@ main {
 }
 
 
-
+/*
 #ABOUTOK {
   margin-left: auto; margin-right: auto;
-  width: 575px; height: 1000px;
+  width: 575px; height: 1200px;
   background-color: #2F2C2C;
 }
+*/
